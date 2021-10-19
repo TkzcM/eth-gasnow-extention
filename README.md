@@ -1,8 +1,9 @@
-# Notice
+# Overview
 
-This project has been transferred to other development and maintenance. If you have any questions, please contact the developer in discord: https://discord.com/invite/H9XZyZuTBM
+This is a fork of [gasnow extention](https://github.com/Taichi-Network/eth-gasnow-extention), using [etherchain gas price api](https://www.etherchain.org/tools/gasnow) instead.
 
-by 2021年06月17日10:37:41
+# How to install
+Download files from [release page](https://github.com/CtheSky/eth-gasnow-extention/releases), and manually install it in chrome or firefox.
 
 # gasnow-extention
 GasNow extension for browser
