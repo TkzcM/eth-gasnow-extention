@@ -22,7 +22,10 @@ const HomePage = ({
     })
   }
 
-  const language = (browser.i18n.getUILanguage() || 'us').includes('zh') ? 'cny' : 'usd';
+  // only support usd here since etherchain api don't provide cny price,
+  // and I dont want to include another api as dependency,
+  // usd is ok for most chinese user who owns some eth
+  const language = 'usd'; // const language = (browser.i18n.getUILanguage() || 'us').includes('zh') ? 'cny' : 'usd';
   const symbol = {
     cny: '￥',
     usd: '$'

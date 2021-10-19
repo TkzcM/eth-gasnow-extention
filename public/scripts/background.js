@@ -41,12 +41,12 @@ function saveEthPrice(price) {
 }
 
 function getETHPrice() {
-  fetch("https://www.gasnow.org/api/v1/eth/price?utm_source=GasNowExtension", {
+  fetch("https://etherchain.org/api/gasnow", {
     method: 'GET',
     mode: 'cors',
   }).then((res) => res.json()
   ).then((json) => {
-    saveEthPrice(json.data);
+    saveEthPrice({'usd': json.data.priceUSD});
   }).catch((err) => {
     console.log(err)
   })
@@ -55,7 +55,7 @@ function getETHPrice() {
 // fetch gas prices
 function fetchGasData() {
   clearTimeout(timer);
-  fetch("https://www.gasnow.org/api/v3/gas/price?utm_source=GasNowExtension", {
+  fetch("https://etherchain.org/api/gasnow", {
     method: 'GET'
   }).then((res) => res.json()
   ).then((json) => {
