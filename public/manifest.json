@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
   "name": "__MSG_pluginName__",
-  "version": "0.2.8",
+  "version": "0.2.9",
   "description": "__MSG_pluginDesc__",
-  "author": "gasnow.org",
+  "author": "gasnow code with etherchain api",
   "icons": {
     "16": "images/icon16.png",
     "32": "images/icon32.png",
@@ -19,7 +19,7 @@
       "scripts/background.js"
     ]
   },
-  "homepage_url": "https://www.gasnow.org",
+  "homepage_url": "https://github.com/CtheSky/eth-gasnow-extention",
   "permissions": ["notifications", "storage", "alarms"],
   "default_locale": "en"
 }

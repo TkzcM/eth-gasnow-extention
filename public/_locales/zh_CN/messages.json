@@ -1,6 +1,6 @@
 {
-	"pluginDesc": {"message": "最酷的以太坊Gas Price预估工具"},
-	"pluginName": {"message": "GasNow - ETH Gas Price 预测系统"},
+	"pluginDesc": {"message": "GasNow 的代码加上 etherchain 的 API，提供 Gas 预测"},
+	"pluginName": {"message": "RIP - GasNow"},
 	"rapid": {
 		"message": "极速"
 	},

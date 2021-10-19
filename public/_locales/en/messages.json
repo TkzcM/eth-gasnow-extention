@@ -1,7 +1,7 @@
 {
 
-    "pluginDesc": {"message": "The coolest tool to estimate the gas price of Ethereum"},
-    "pluginName": {"message": "GasNow - ETH GasPrice forecast system"},
+    "pluginDesc": {"message": "GasNow code with etherchain.org api to estimate eth gas prediction"},
+    "pluginName": {"message": "RIP - GasNow"},
   "rapid": {
     "message": "Rapid"
   },
