@@ -3,7 +3,8 @@
 This is a fork of [gasnow extention](https://github.com/Taichi-Network/eth-gasnow-extention), using [etherchain gas price api](https://www.etherchain.org/tools/gasnow) instead.
 
 # How to install
-Download files from [release page](https://github.com/CtheSky/eth-gasnow-extention/releases), and manually install it in chrome or firefox.
+- On [chrome webstore](https://chrome.google.com/webstore/detail/rip-gasnow/cpclcgemnnjhnemgndddgjglogjpnine)
+- Or download files from [release page](https://github.com/CtheSky/eth-gasnow-extention/releases), and manually install it.
 
 # gasnow-extention
 GasNow extension for browser
