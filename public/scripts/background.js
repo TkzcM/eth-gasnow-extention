@@ -41,7 +41,7 @@ function saveEthPrice(price) {
 }
 
 function getETHPrice() {
-  fetch("https://etherchain.org/api/gasnow", {
+  fetch("https://beaconcha.in/api/v1/execution/gasnow", {
     method: 'GET',
     mode: 'cors',
   }).then((res) => res.json()
@@ -55,7 +55,7 @@ function getETHPrice() {
 // fetch gas prices
 function fetchGasData() {
   clearTimeout(timer);
-  fetch("https://etherchain.org/api/gasnow", {
+  fetch("https://beaconcha.in/api/v1/execution/gasnow", {
     method: 'GET'
   }).then((res) => res.json()
   ).then((json) => {
